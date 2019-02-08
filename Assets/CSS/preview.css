@@ -1,0 +1,53 @@
+body{
+    overflow:hidden;
+    /* background-color: #0F4B8A; */
+}
+
+#wrapper{
+    position: relative;
+    height:100vh;
+    width:100vw;
+    padding-left: calc(50vw - 502px);
+    padding-top:15px;
+}
+
+#background_pic{
+    position: absolute;
+    z-index:-999;
+}
+
+#cover{
+    position: absolute;
+    z-index:999;
+    height: 100vh;
+    width:100vw;
+    background-color: #0F4B8A;
+}
+
+#preview_canvas{
+    text-align:center;
+}
+
+.jumbotron{
+    position: absolute;
+    z-index:999;
+    text-align:center; 
+    margin-left:auto;
+    margin-right:auto; 
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+/* form{
+    display:inline;
+} */
+
+@font-face{
+    font-family: testFont;
+    src:url(../font/FuturaStd-Heavy.otf);
+}
+
+#name_here{
+    font-family: testFont;
+    color: #59595c;
+}

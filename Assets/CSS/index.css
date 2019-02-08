@@ -1,0 +1,100 @@
+body, html {
+  height: 100%;
+  width:100%;
+}
+body {
+  background-image: url(../Images/login_bg.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box{
+  position: relative;
+  margin-top: 15vh;
+}
+
+#background_pic{
+  height: 1080px;
+  width: 1920px;
+  background-image: url("../Images/Wallpaper.png");
+  background-size: 100% 100%;
+}
+
+.delete_button {
+  background: transparent;
+  border: 1px solid #f00;
+  border-radius: 2em;
+  color: #f00;
+  display: inline;
+  font-size: 12px;
+  height: 20px;
+  line-height: 2px;
+  margin: 0 0 8px;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+}
+
+.delete_button:hover{
+  background: #f00;
+  color: #c3e6cb;
+}
+
+form{
+  display:inline;
+}
+
+#form_container{
+  padding-top: 10px;
+}
+
+.center_button{
+  text-align:center;
+  display: block;
+}
+
+#log{
+  overflow-y: scroll;
+  max-height:60vh;
+}
+
+/* custom bootstrap */
+.nav-tabs {
+    border-bottom: none;
+}
+
+.tab-content.jumbotron {
+  border-radius: 0 0 .3rem .3rem;
+  max-height:70vh;
+} 
+#donor_container{
+  height:40vh;
+  overflow-y: scroll;
+}
+
+.col-8{
+  text-align: center;
+} 
+#start{
+  height: 77%;
+}
+#center{
+  height: 10%;
+}
+#end{
+  height: 13%;
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+
+
