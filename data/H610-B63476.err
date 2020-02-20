@@ -1,0 +1,36 @@
+2020-02-14 16:27:50 16600 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-02-14 16:27:50 16600 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-02-14 16:27:50 16600 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-02-14 16:27:50 16600 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-02-14 16:27:50 16600 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-02-14 16:27:50 16600 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-02-14 16:27:50 16600 [Note] InnoDB: Using generic crc32 instructions
+2020-02-14 16:27:50 16600 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2020-02-14 16:27:50 16600 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-14 16:27:50 16600 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2020-02-14 16:27:50 16600 [ERROR] InnoDB: The system tablespace must be writable!
+2020-02-14 16:27:50 16600 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-02-14 16:27:50 16600 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-02-14 16:27:50 16600 [Note] Plugin 'FEEDBACK' is disabled.
+2020-02-14 16:27:50 16600 [ERROR] Unknown/unsupported storage engine: InnoDB
+2020-02-14 16:27:50 16600 [ERROR] Aborting
+
+2020-02-20 15:24:24 18444 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-02-20 15:24:24 18444 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-02-20 15:24:24 18444 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-02-20 15:24:24 18444 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-02-20 15:24:24 18444 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-02-20 15:24:24 18444 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-02-20 15:24:24 18444 [Note] InnoDB: Using generic crc32 instructions
+2020-02-20 15:24:24 18444 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2020-02-20 15:24:24 18444 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-20 15:24:24 18444 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2020-02-20 15:24:24 18444 [ERROR] InnoDB: The system tablespace must be writable!
+2020-02-20 15:24:24 18444 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-02-20 15:24:24 18444 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-02-20 15:24:24 18444 [Note] Plugin 'FEEDBACK' is disabled.
+2020-02-20 15:24:24 18444 [ERROR] Unknown/unsupported storage engine: InnoDB
+2020-02-20 15:24:24 18444 [ERROR] Aborting
+
